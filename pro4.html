@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="lovecal.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="love">
+        <h1>Love Scinetific Calci..!❤</h1>
+        <div class="box">
+        <h3>Your Name</h3>
+        <input type="text" id="yourname"><br>
+        <h3>Dove Name</h3>
+        <input type="text" id="dovename"><br>
+        <button onclick="love()">Result</button>
+        <p id="result"></p></div>
+        <script>
+            function love(){
+                var yourname=document.getElementById("yourname").value;
+                var dovename=document.getElementById("dovename").value;
+                var marks = Math.floor(Math.random()*101);
+            var resultText="";
+            var resultClass="";
+            if (marks<35){
+                resultText="It won't Work💔";
+                resultClass="FAIL";
+            }else{
+                resultClass="PASS";
+                if (marks>=75){
+                    resultText= " ";
+
+                }
+                {
+                resultText=name + "SOULMATES💕";
+             }
+            }
+            var resultPara = document.getElementById("result");
+            resultPara.innerHTML=resultText;
+            resultPara.className=resultClass;
+        }        
+        
+            
+        </script>
+    </div>
+</body>
+</html>

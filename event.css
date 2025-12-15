@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+    background-image: url("https://media.licdn.com/dms/image/v2/D5612AQFPsZH0pU5bQA/article-cover_image-shrink_720_1280/B56ZgHI4b.HcAM-/0/1752466431245?e=2147483647&v=beta&t=bMvKXJQ2oGIyv9IFik5g4VfsDWyROUM7Vygpi0cZwlM");
+    background-size: cover;
+}
+h1{
+    color: aliceblue;
+}
+.name{
+    color: aliceblue;
+}

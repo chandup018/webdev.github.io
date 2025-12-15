@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="scene">
+        <div class="sun"></div>
+    
+    </div>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: skyblue;
+
+        }
+        .scene{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background: linear-gradient(to top,skyblue,white);
+            animation: skychange ;
+        }
+        .sun{
+            
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            background-color: yellow;
+            left: 20%;
+            top:100%;
+            transform: translateX(-50%);
+            animation: sunrise;
+
+        }
+        @keyframes sunrise {
+            0%{
+                top: 100%;
+                background-color: yellow;
+            }
+            40%{
+                top: 60%;
+                background-color: white;
+
+            }
+            70%{
+                top:60% ;
+                background-color: orange;
+
+            }
+            100%{
+                top: 100%;
+                background-color: red;
+            }
+
+            
+        }
+    </style>
+    
+</body>
+</html>

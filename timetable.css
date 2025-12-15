@@ -1,0 +1,49 @@
+body{
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+
+}
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.timetable{
+    width:90% ;
+    height: auto;
+    border-collapse:collapse ;
+    background-color: #f0f0f0;
+
+}
+
+.timetable th,.timetable td{
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto;
+    padding: 12px;
+    text-align: center;
+}
+
+.timetable th{
+
+    background-color: rgb(142, 14, 14);
+    color: white;
+
+
+}
+.break{
+    background-color: yellow;
+    font-weight: 90;
+
+}
+.Lunch{
+    background-color: orange;
+    font-weight: 90;
+
+}
+.Monday{
+    background-color: rgb(24, 10, 227);
+    color: black
+    ;
+}
+

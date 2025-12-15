@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>backgroundColor change</title>
+        <style>
+            body{
+                height:100px ;
+                text-align: center;
+                font-family: Arial;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+            button{
+                padding: 10px 20px;
+                font-size: 14px;
+                parign-top: 20px;
+            }
+        </style>
+    </head>
+</html>
+<body>
+    <button onclick=chanebg()>click for differnt BG </button>
+
+    <script>
+        function chanebg(){
+            var r=Math.floor(Math.random()*256);
+            var g=Math.floor(Math.random()*256);
+            var b=Math.floor(Math.random()*256);
+            var color="rgb("+r+","+g+","+b+")";
+            document.body.style.backgroundColor=color;
+            document.querySelector("h1").innerHTML=color;
+        
+        }
+    </script>
+
+    
+</body>
+</html>
